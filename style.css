@@ -1,0 +1,84 @@
+body {
+    background: url(img/background.jpg);
+    font-family: garamond;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1 {
+    background: radial-gradient(circle, rgba(63,94,251,1) 6%, rgba(9,9,121,0.01) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 40px; 
+    margin-bottom: 5%; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.presentes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center;    
+}
+
+section div {
+    background: rgba(255, 255, 255, 0.748);
+    border: 5px groove rgb(2, 105, 208);
+    border-radius: 30px;
+    color:rgb(2, 105, 208);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h2 {
+    color:rgb(2, 105, 208);
+    font-weight: 1000;
+    font-size: 25px;   
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;   
+}
+
+.valor {
+    margin: 10px 0px;
+}
+
+button {
+    background: white;
+    border: 2px solid rgba(4, 47, 115, 0.814);
+    border-radius: 5px;
+    color:rgb(2, 105, 208);
+    font-weight: 1000;
+    padding: 5px 30px;   
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in;   
+}
+
+button:active {  
+    background:rgb(2, 105, 208);
+    color: white;  
+    transform: scale(1.3);
+}
+
+.footer {
+    background: radial-gradient(circle, rgba(63,94,251,1) 33%, rgba(9,9,121,0.01) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;   
+}
+
